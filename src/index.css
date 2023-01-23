@@ -1,0 +1,24 @@
+:root {
+  /* typography */
+
+  --ff-roboto: 'Roboto', sans-serif;
+  --ff-monospace: 'Roboto Mono', monospace;
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-short: 0.875rem;
+  --fs-medium: 1rem;
+  --fs-large: 2rem;
+
+  /* colors */
+
+  --c-bg: #f3f3f3;
+  --c-bg-dark: #080b1c;
+  --c-primary: #4263eb;
+  --c-primary-dark: #364fc7;
+  --c-text-light: #FFF;
+  --c-text-dark: #292929;
+}
+
