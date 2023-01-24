@@ -1,0 +1,6 @@
+.Avatar {
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 7px solid var(--c-primary);
+}
