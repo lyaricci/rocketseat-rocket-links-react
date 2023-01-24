@@ -1,36 +1,36 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
 }
 
 body {
-  background-color: var(--c-bg);
-  font-family: var(--ff-roboto);
-  color: var(--c-text-dark);
+	background-color: var(--c-bg);
+	font-family: var(--ff-roboto);
+	color: var(--c-text);
 }
 
 .App {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
 
 .buttons-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	margin-top: 10px;
 }
 
 .ButtonSwitcher {
-  margin-top: 10px;
+	margin-top: 10px;
 }
 
 .Footer {
-  margin-top: 10px;
+	margin-top: 10px;
 }

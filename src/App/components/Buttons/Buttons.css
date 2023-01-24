@@ -3,7 +3,7 @@
 	padding: 15px 80px;
 	background-color: var(--c-primary);
 	color: var(--c-text-light);
-	box-shadow: 2px 2px 4px 0px var(--c-bg-dark);
+	box-shadow: 1px 1px 4px 0px var(--c-accent);
 	font-weight: var(--fw-bold);
 	font-size: var(--fs-medium);
 
@@ -14,17 +14,18 @@
 }
 
 .btnLinks:hover {
-	background-color: var(--c-primary-dark);
+	background-color: var(--c-primary);
+	opacity: 0.8;
 	transition: all 0.8s ease-in-out;
 }
 
 .btnSwitcher {
 	cursor: pointer;
 	padding: 10px;
-	color: var(--c-text-light);
-	background-color: var(--c-primary-dark);
-	box-shadow: 2px 2px 4px 0px var(--c-bg-dark);
-	border: none;
+	color: var(--c-text);
+	background-color: transparent;
+	box-shadow: 1px 1px 4px 0px var(--c-accent);
+	border: 2px solid var(--c-primary);
 	border-radius: 6px;
 	font-family: "Roboto", sans-serif;
 	font-size: 0.75rem;
@@ -33,5 +34,6 @@
 }
 
 .btnSwitcher:hover {
-	background-color: var(--c-bg-dark);
+	background-color: var(--c-primary);
+	opacity: 0.8;
 }

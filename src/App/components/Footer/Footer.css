@@ -1,5 +1,5 @@
 .Footer {
 	text-align: center;
 	font-size: var(--fs-short);
-	color: var(--c-text-dark);
+	color: var(--c-text);
 }
