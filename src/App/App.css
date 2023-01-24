@@ -6,11 +6,31 @@
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: var(--c-bg);
   font-family: var(--ff-roboto);
+  color: var(--c-text-dark);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.ButtonSwitcher {
+  margin-top: 10px;
+}
+
+.Footer {
+  margin-top: 10px;
 }
