@@ -31,3 +31,7 @@
 	font-weight: var(--fw-bold);
 	text-transform: uppercase;
 }
+
+.btnSwitcher:hover {
+	background-color: var(--c-bg-dark);
+}
