@@ -11,7 +11,7 @@ export default function ButtonLink({ socialIcon, socialLink, socialName }) {
 	);
 }
 
-export function ButtonSwitcher({text}) {
+export function ButtonSwitcher({ text }) {
 	return (
 		<div>
 			<button className="btnSwitcher">{text}</button>
