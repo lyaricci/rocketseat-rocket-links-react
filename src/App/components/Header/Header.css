@@ -1,0 +1,10 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.Header > p {
+  font-family: var(--ff-monospace);
+}
