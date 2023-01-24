@@ -3,6 +3,7 @@
 	padding: 15px 80px;
 	background-color: var(--c-primary);
 	color: var(--c-text-light);
+	box-shadow: 2px 2px 4px 0px var(--c-bg-dark);
 	font-weight: var(--fw-bold);
 	font-size: var(--fs-medium);
 
@@ -12,8 +13,9 @@
 	gap: 8px;
 }
 
-.btnLinks > svg {
-	fill: var(--c-text-light);
+.btnLinks:hover {
+	background-color: var(--c-primary-dark);
+	transition: all 0.8s ease-in-out;
 }
 
 .btnSwitcher {
@@ -21,6 +23,7 @@
 	padding: 10px;
 	color: var(--c-text-light);
 	background-color: var(--c-primary-dark);
+	box-shadow: 2px 2px 4px 0px var(--c-bg-dark);
 	border: none;
 	border-radius: 6px;
 	font-family: "Roboto", sans-serif;
