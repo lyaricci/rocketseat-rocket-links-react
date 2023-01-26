@@ -38,7 +38,7 @@ function App() {
 			<div className="Footer">
 				<Footer />
 			</div>
-		</div>git
+		</div>
 	);
 }
 
