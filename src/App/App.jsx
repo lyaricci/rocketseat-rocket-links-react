@@ -36,9 +36,9 @@ function App() {
 				<ButtonSwitcher text="Mudar tema" />
 			</div>
 			<div className="Footer">
-				<Footer text="Feito com 🖤 por Nathálya Ricci" />
+				<Footer />
 			</div>
-		</div>
+		</div>git
 	);
 }
 

@@ -1,9 +1,9 @@
 import "./Footer.css";
 
-export function Footer({ text }) {
+export function Footer() {
 	return (
 		<div className="Footer">
-			<p>{text}</p>
+			<p>Feito com 🖤 por Nathálya Ricci</p>
 		</div>
 	);
 }
