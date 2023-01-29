@@ -35,5 +35,4 @@
 
 .btnSwitcher:hover {
 	background-color: var(--c-primary);
-	opacity: 0.8;
 }
