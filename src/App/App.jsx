@@ -7,8 +7,15 @@ import { ButtonSwitcher } from "./components/Buttons/Buttons";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
+
+	const [darkMode, setDarkMode] = useState(false);
+
+	const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+	}
+
 	return (
-		<div className="App">
+		<div className="App" id={darkMode ? "dark-mode" : "light-mode"}>
 			<Avatar />
 			<Header
 				name="Nathálya Ricci"
@@ -32,7 +39,7 @@ function App() {
 					socialName="Linkedin"
 				/>
 			</div>
-			<div className="ButtonSwitcher">
+			<div className="ButtonSwitcher" onClick={toggleDarkMode}>
 				<ButtonSwitcher text="Mudar tema" />
 			</div>
 			<div className="Footer">

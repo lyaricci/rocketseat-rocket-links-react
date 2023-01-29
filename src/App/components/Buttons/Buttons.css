@@ -2,7 +2,7 @@
 	border-radius: 6px;
 	padding: 15px 80px;
 	background-color: var(--c-primary);
-	color: var(--c-text-light);
+	color: var(--c-text-button);
 	box-shadow: 1px 1px 4px 0px var(--c-accent);
 	font-weight: var(--fw-bold);
 	font-size: var(--fs-medium);
