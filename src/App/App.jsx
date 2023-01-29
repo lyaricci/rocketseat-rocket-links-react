@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Avatar } from "./components/Avatar/Avatar";
 import { Header } from "./components/Header/Header";
 import ButtonLink from "./components/Buttons/Buttons";
@@ -7,12 +7,17 @@ import { ButtonSwitcher } from "./components/Buttons/Buttons";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
+	const [darkMode, setDarkMode] = useState(
+		JSON.parse(window.localStorage.getItem("darkMode")) || false
+	);
 
-	const [darkMode, setDarkMode] = useState(false);
+	useEffect(() => {
+		window.localStorage.setItem("darkMode", JSON.stringify(darkMode));
+	}, [darkMode]);
 
 	const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-	}
+		setDarkMode(!darkMode);
+	};
 
 	return (
 		<div className="App" id={darkMode ? "dark-mode" : "light-mode"}>
