@@ -5,6 +5,23 @@
 	text-decoration: none;
 }
 
+#light-mode {
+	--c-bg: #f7ebfd;
+	--c-primary: #c8b1e4;
+	--c-accent: #4c4e4c;
+	--c-text: #1d1d1d;
+	--c-text-button: #1d1d1d;
+}
+
+#dark-mode {
+	--c-bg: #1d1d1d;
+	--c-primary: #c8b1e4;
+	--c-accent: #f7ebfd;
+	--c-text: #f7ebfd;
+	--c-text-button: #1d1d1d;
+
+}
+
 .App {
 	height: 100vh;
 	display: flex;

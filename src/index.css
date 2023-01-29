@@ -11,18 +11,6 @@
 	--fs-short: 0.875rem;
 	--fs-medium: 1rem;
 	--fs-large: 2rem;
-
-	/* colors */
-
-	--c-bg: #e8eddf;
-	--c-primary: #f5cb5c;
-	--c-accent: #4c4e4c;
-	--c-text: #1d1d1d;
 }
 
-[data-theme="dark"] {
-	--c-bg: #1d1d1d;
-	--c-primary: #f5cb5c;
-	--c-accent: #cfdbd5;
-	--text: #e8eddf;
-}
+
