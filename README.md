@@ -16,3 +16,4 @@ Esta versão é feita com React JS.
 - CSS
 
 ## 👀 Live Preview
+https://rocketseat-rocket-links-react.netlify.app/
